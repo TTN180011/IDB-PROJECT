@@ -1,0 +1,143 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/eye.css');
+
+
+/* .threadBody {
+    position: relative;
+    
+    left: 5vw;
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-align: left;
+} */
+
+button.threadCard {
+    position: relative;
+    /* float: right; */
+    width: 83vw;
+    /* height: 120px; */
+    height: 14vh;
+    max-height: max-content;
+    background: rgba(181, 134, 78, 0.26);
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 15vw; */
+    margin-left: 15vw;
+    text-align: left;
+
+    cursor: pointer;
+    
+}
+
+button.threadCard2 {
+    position: relative;
+    /* float: right; */
+    width: 83vw;
+    /* height: 120px; */
+    height: 14vh;
+    max-height: max-content;
+    background: rgba(181, 134, 78, 0.26);
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    top: 35vh;
+    /* margin-left: 15vw; */
+    /* margin-left: 15vw; */
+    text-align: left;
+
+    cursor: pointer;
+}
+
+button.hideThread {
+    position: relative;
+    right: 15px;
+    top: 20px;
+    float: right;
+    z-index: 110;
+    outline-width: 0px;
+    background-color: rgba(181, 134, 78, 0.26);;
+}
+
+.threadTitle {
+    position: relative;
+    left: 100px;
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    max-width: 900px;
+    height: 40px;
+    
+}
+
+ul.threadTags {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+    margin-bottom: 1vh;
+}
+
+.vote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    position: relative;
+    left: 40vw;
+    bottom:4vw;
+    
+
+    width:min-content 200px;
+    height:min-content 20px;
+}
+
+
+
+.upvote {
+    border-width: 1px;
+    background-color: #E5D9CA;
+    
+}
+
+.downvote {
+    border-width: 1px;
+    background-color: #E5D9CA;
+    
+}
+
+p.threadBody {
+    position: relative;
+    left: 0.4vw;
+    top: -1.9vh;
+    font-family: Karla;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+
+}
+
+h1.threadTitle {
+    position: relative;
+    left: 10px;
+    font-family: Karla;
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    max-width: 900px;
+    
+}
+
+/* h4 {
+    position: relative;
+    left: 5px;
+    top: -35px;
+} */

@@ -1,0 +1,21 @@
+.DashboardButton {
+    position: relative;
+
+    width: 11vw;
+    height: 80px;
+    margin: 5px;
+    border: none;
+    background-color: #c1baba;
+    border-radius: 10px;
+    padding: 3px;
+    
+
+    cursor: pointer;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+}
